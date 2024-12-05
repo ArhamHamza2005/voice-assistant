@@ -1,0 +1,55 @@
+/* General body styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #00d0ff, #ff6200); /* Gradient background */
+  color: #fff;
+  text-align: center;
+}
+
+.app-container {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1); /* Transparent background */
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.instruction {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #f1f1f1;
+}
+
+.start-btn {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  color: #fff;
+  background: black;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.start-btn:hover {
+  background: white;
+  color:black
+}
+
+.start-btn:active {
+  transform: scale(0.98);
+  transition: transform 0.1s ease;
+}
